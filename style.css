@@ -1,0 +1,30 @@
+* {
+    background-color: papayawhip;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: rgb(180, 84, 116);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+nav img{
+width: 50px;
+height: 50px;
+}
+
+nav img:hover{
+    width: 80px;
+    height: 80px;
+}
+
+li{ 
+    color: rgb(180, 24, 76);
+    font-size: 25px;
+}
+
+h2{
+    color: rgb(180, 24, 76);
+}
