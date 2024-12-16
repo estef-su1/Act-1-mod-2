@@ -7,34 +7,37 @@
 
 body {
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Pinyon Script", serif;
     overflow-x: hidden;
 }
 
 header {
     background-color: #ff639f;
-    color: #fff;
-    padding: 1rem 0;
+    color: black;
+    padding: .5rem 0;
     text-align: center;
 }
 
 header .logo h1 {
-    font-size:75px;
+    font-size: 5rem;
     font-weight: bold;
-    text-align: center;
-    font-family: "Pinyon Script", serif;
-    font-weight: 100px;
-    font-style: normal;
 }
 
 h2 {
-    text-align: center;
-    font-family: "Pinyon Script", serif;
-    font-weight: 100px;
-    font-style: normal;
+    color: rgb(180, 24, 76);
 }
 
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-between;
+    color: #333;
+    font-size: 3rem;
+    }
+
+    
 nav ul {
     display: flex;
     justify-content: center;
@@ -42,7 +45,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 45px;
 }
 
 nav ul li a {
@@ -67,8 +70,9 @@ nav ul li a {
 }
 
 .principio p{
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-bottom: 1.5rem;
+    color: #333;
 } 
 
 .botón {
@@ -84,16 +88,15 @@ nav ul li a {
 .botón:hover {
     background-color: #e55757;
 }
-
-.nosotres, .productos, .contactos {
+.principio, .sobre, .productes, .contactos {
     padding: 2rem 0;
     text-align: center;
+    font-size: 2rem;
 }
 
-.productos .productes {
+#productos {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: center;    
 }
 
 .productos {
@@ -101,9 +104,66 @@ nav ul li a {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 500px;
+    max-width: 1000px;
 }
 
+.productos img {
+    width: 50%;
+    border-bottom: 5px solid #ff6363;
+}
+
+.productos h3 {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.productos p {
+    padding: 0 1rem 1rem;
+    font-size: 2rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #ff6363;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e55757;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #ff6363;
+    text-decoration: none;
+    margin: 0 10px;
+}
 
 nav img{
 width: 50px;
@@ -113,10 +173,4 @@ height: 50px;
 nav img:hover{
     width: 80px;
     height: 80px;
-}
-
-
-
-h2{
-    color: rgb(180, 24, 76);
 }
